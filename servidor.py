@@ -26,6 +26,13 @@ class MyService(rpyc.Service):
         end = time.time()
         print(f"Tempo de execução no servidor: {end - start}")
         return resultado
+    
+    def exposed_sum_vector_with_time(self, vector):
+        """Recebe um vetor e retorna a soma dos elementos e o tempo de execução."""
+        start = time.time()
+        resultado = sum(vector)
+        end = time.time()
+        return [resultado, end-start]
 
 
 # Para iniciar o servidor

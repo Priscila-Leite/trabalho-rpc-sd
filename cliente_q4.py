@@ -2,23 +2,29 @@ import rpyc
 import sys
 import time
 
-if len(sys.argv) < 2:
-    exit("Usage: {} SERVER".format(sys.argv[0]))
+def soma(n, server):
+    conn = rpyc.connect(server, 18861)
+    # Cria vetor de 0 a n-1
+    vetor = list(range(n))
+    # Mede o tempo total no cliente (inclui envio, processamento e retorno)
+    start = time.time()
+    resultado, tempo_servidor = conn.root.sum_vector_with_time(vetor)
+    end = time.time()
+    return resultado, tempo_servidor, end - start
 
-server = sys.argv[1]
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        exit("Usage: {} SERVER".format(sys.argv[0]))
 
-# Usuário define o tamanho do vetor
-n = int(input("Digite o valor de n: "))
+    server = sys.argv[1]
+    
+    # Usuário define o tamanho do vetor
+    n = int(input("Digite o valor de n: "))
 
-# Cria vetor de 0 a n-1
-vetor = list(range(n))
+    resultado, tempo_servidor, tempo_cliente = soma(n, server)
 
-conn = rpyc.connect(server, 18861)
+    print(f"Soma dos elementos: {resultado}")
+    print(f"Tempo de execução no cliente: {tempo_cliente}")
+    print(f"Tempo de execução no servidor: {tempo_servidor}")
 
-# Mede o tempo total no cliente (inclui envio, processamento e retorno)
-start = time.time()
-resultado = conn.root.sum_vector(vetor)
-end = time.time()
-
-print(f"Soma dos elementos: {resultado}")
-print(f"Tempo de execução no cliente: {end - start}")
+# 192.168.1.13
