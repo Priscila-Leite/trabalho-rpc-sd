@@ -1,0 +1,75 @@
+{
+  "configuracao": {
+    "num_execucoes": 10,
+    "tamanho_vetor": 100,
+    "servidor": "172.25.10.42",
+    "porta": 18861
+  },
+  "resultados": [
+    {
+      "execucao": 1,
+      "soma": 4950,
+      "tempo_cliente": 0.09719014167785645,
+      "tempo_servidor": 0.0474705696105957
+    },
+    {
+      "execucao": 2,
+      "soma": 4950,
+      "tempo_cliente": 0.09002399444580078,
+      "tempo_servidor": 0.04016470909118652
+    },
+    {
+      "execucao": 3,
+      "soma": 4950,
+      "tempo_cliente": 0.1006002426147461,
+      "tempo_servidor": 0.05270719528198242
+    },
+    {
+      "execucao": 4,
+      "soma": 4950,
+      "tempo_cliente": 0.09073281288146973,
+      "tempo_servidor": 0.04226517677307129
+    },
+    {
+      "execucao": 5,
+      "soma": 4950,
+      "tempo_cliente": 0.09992480278015137,
+      "tempo_servidor": 0.04977774620056152
+    },
+    {
+      "execucao": 6,
+      "soma": 4950,
+      "tempo_cliente": 0.10844230651855469,
+      "tempo_servidor": 0.05880379676818848
+    },
+    {
+      "execucao": 7,
+      "soma": 4950,
+      "tempo_cliente": 0.09457254409790039,
+      "tempo_servidor": 0.04704546928405762
+    },
+    {
+      "execucao": 8,
+      "soma": 4950,
+      "tempo_cliente": 0.10312008857727051,
+      "tempo_servidor": 0.054485321044921875
+    },
+    {
+      "execucao": 9,
+      "soma": 4950,
+      "tempo_cliente": 0.3108701705932617,
+      "tempo_servidor": 0.05680561065673828
+    },
+    {
+      "execucao": 10,
+      "soma": 4950,
+      "tempo_cliente": 0.08369183540344238,
+      "tempo_servidor": 0.03566479682922363
+    }
+  ],
+  "resumo": {
+    "media_tempo_cliente": 0.11791689395904541,
+    "media_tempo_servidor": 0.048519039154052736,
+    "timestamp": "2026-04-28T17:30:02.633157"
+  }
+}

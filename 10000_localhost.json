@@ -9,67 +9,67 @@
     {
       "execucao": 1,
       "soma": 49995000,
-      "tempo_cliente": 2.066415309906006,
-      "tempo_servidor": 2.063373327255249
+      "tempo_cliente": 2.346501588821411,
+      "tempo_servidor": 2.3027195930480957
     },
     {
       "execucao": 2,
       "soma": 49995000,
-      "tempo_cliente": 2.166820764541626,
-      "tempo_servidor": 2.1641480922698975
+      "tempo_cliente": 2.3313801288604736,
+      "tempo_servidor": 2.2840988636016846
     },
     {
       "execucao": 3,
       "soma": 49995000,
-      "tempo_cliente": 2.216921091079712,
-      "tempo_servidor": 2.2142109870910645
+      "tempo_cliente": 2.3739845752716064,
+      "tempo_servidor": 2.3291499614715576
     },
     {
       "execucao": 4,
       "soma": 49995000,
-      "tempo_cliente": 2.052704334259033,
-      "tempo_servidor": 2.0500030517578125
+      "tempo_cliente": 2.470750093460083,
+      "tempo_servidor": 2.424072027206421
     },
     {
       "execucao": 5,
       "soma": 49995000,
-      "tempo_cliente": 2.0731348991394043,
-      "tempo_servidor": 2.070604085922241
+      "tempo_cliente": 2.5391058921813965,
+      "tempo_servidor": 2.4917356967926025
     },
     {
       "execucao": 6,
       "soma": 49995000,
-      "tempo_cliente": 2.083322286605835,
-      "tempo_servidor": 2.0806078910827637
+      "tempo_cliente": 2.8148887157440186,
+      "tempo_servidor": 2.7693123817443848
     },
     {
       "execucao": 7,
       "soma": 49995000,
-      "tempo_cliente": 2.206589698791504,
-      "tempo_servidor": 2.203721284866333
+      "tempo_cliente": 2.438849925994873,
+      "tempo_servidor": 2.3933420181274414
     },
     {
       "execucao": 8,
       "soma": 49995000,
-      "tempo_cliente": 2.1949942111968994,
-      "tempo_servidor": 2.1923928260803223
+      "tempo_cliente": 2.495607376098633,
+      "tempo_servidor": 2.445258140563965
     },
     {
       "execucao": 9,
       "soma": 49995000,
-      "tempo_cliente": 2.386223554611206,
-      "tempo_servidor": 2.3836233615875244
+      "tempo_cliente": 2.386108875274658,
+      "tempo_servidor": 2.3374176025390625
     },
     {
       "execucao": 10,
       "soma": 49995000,
-      "tempo_cliente": 2.2525949478149414,
-      "tempo_servidor": 2.2498779296875
+      "tempo_cliente": 2.4555299282073975,
+      "tempo_servidor": 2.4118764400482178
     }
   ],
   "resumo": {
-    "media_tempo_cliente": 2.1699721097946165,
-    "media_tempo_servidor": 2.1672562837600706,
-    "timestamp": "2026-04-28T16:44:27.657537"
+    "media_tempo_cliente": 2.4652707099914553,
+    "media_tempo_servidor": 2.418898272514343,
+    "timestamp": "2026-04-28T17:42:11.594716"
   }
 }

@@ -6,7 +6,8 @@ from cliente_q4 import soma
 
 # Constantes
 NUM_EXECUCOES = 10
-TAMANHO_VETOR = 100
+TAMANHO_VETOR = 10000
+# 192.168.1.13
 SERVIDOR = "localhost"
 PORTA = 18861
 

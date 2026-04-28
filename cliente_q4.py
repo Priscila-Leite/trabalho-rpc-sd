@@ -17,7 +17,7 @@ if __name__ == "__main__":
         exit("Usage: {} SERVER".format(sys.argv[0]))
 
     server = sys.argv[1]
-    
+
     # Usuário define o tamanho do vetor
     n = int(input("Digite o valor de n: "))
 
@@ -27,4 +27,3 @@ if __name__ == "__main__":
     print(f"Tempo de execução no cliente: {tempo_cliente}")
     print(f"Tempo de execução no servidor: {tempo_servidor}")
 
-# 192.168.1.13
